@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+   height: 100px;
+   background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
+.title{
+    color: white;
+    font-size: 40px;
+    padding: 5px;
+}
+
+.pColor{
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+    background: none;
+    border: none;
+    
+}
+
+.pColor:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+    transition: transform 2s ease;
+    transition-delay: 0.5;
+}
+
+.pLevel{
+    font-size:40px;
+    font-weight: bold;
+    padding: 10px;
+}

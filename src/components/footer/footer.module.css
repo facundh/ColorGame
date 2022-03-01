@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: steelblue;
+    color: white;
+}
+
+.item{
+    font-size: 40px;
+    color:#0E197D ;
+}
+
+.item:hover{
+    transform: rotate(360deg);
+    transition:transform ease 1s;
+    transition-delay: 0.5s;
+    cursor: pointer;
+    color: white;
+}
